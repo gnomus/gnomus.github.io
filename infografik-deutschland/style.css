@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:400,600,700,800);
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 80px;
+}
+.content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.jumbo {
+  position: relative;
+  height: 650px;
+  margin-bottom: 70px;
+}
+
+img.map {
+  width: 500px;
+}
+
+img.human {
+  position: absolute;
+  left: 50%;
+  top: 1300px;
+  width: 300px;
+  padding-left: 100px;
+}
+
+.time {
+  margin-bottom: 50px;
+}
+
+.description {
+  position: absolute;
+  text-align: right;
+  bottom: 120px;
+  right: 0;
+  width: 300px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.red {
+  color: #BD1622;
+}
+
+.black {
+  color: #000000;
+}
+
+span[ live-update] {
+  color: black;
+}

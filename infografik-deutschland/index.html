@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>WIE DEUTSCHLAND TICKT</title>
+
+
+    <link href="libs/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="content">
+      <h1>WIE DEUTSCHLAND TICKT</h1>
+      <p class="red text-right time">Was in <span live-update live-value="seconds"></span> <span class="black">Sekunden</span> in Deutschland passiert</p>
+      <div class="jumbo">
+        <div class="pull-left">
+          <img class="map" src="img/map.png">
+        </div>
+        <p class="red description">
+          In Deutschland leben zur Zeit mehr als 81 Millionen Menschen
+          verteilt auf 357168 km²
+          unterteilt in 16 Bundesländer.
+        </p>
+      </div>
+      <img class="human" src="img/human.png">
+
+      <p>
+        <span class="red">Staatsschulden von Deutschland</span>
+        <span live-update live-value="debt"></span> Euro
+      </p>
+      <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+      <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+      <p>
+        <span class="red">Geburtenrate</span><br />
+        <span live-update live-value="birth"></span> Menschen
+      </p>
+
+      <p>
+        <span class="red">Sterberate</span><br />
+        <span live-update live-value="death"></span> Menschen
+      </p>
+
+      <p>
+        <span class="red">Kaffee</span><br />
+        <span live-update live-value="coffee"></span> Tassen
+      </p>
+
+      <p>
+        <span class="red">Rauchen</span><br />
+        <span live-update live-value="cigarettes"></span> Zigaretten
+      </p>
+
+      <p>
+        <span class="red">Bier</span><br />
+        <span live-update live-value="beer"></span> Liter
+      </p>
+
+      <p>
+        <span class="red">Obst</span><br />
+        <span live-update live-value="fruits"></span> Kilogramm
+      </p>
+
+      <p>
+        <span class="red">Gemüse</span><br />
+        <span live-update live-value="vegetables"></span> Kilogramm
+      </p>
+
+      <p>
+        <span class="red">Fleisch</span><br />
+        <span live-update live-value="meat"></span> Kilogramm
+      </p>
+
+      <p>
+        <span class="red">Fahrleistung</span><br />
+        <span live-update live-value="drive"></span> Kilometer
+      </p>
+
+      <p>
+        <span class="red">Kraftstoffverbrauch</span><br />
+        <span live-update live-value="gas-amount"></span> Liter
+      </p>
+
+      <p>
+        <span class="red">Ausgaben Kraftstoff</span><br />
+        <span live-update live-value="gas-cost"></span> Euro
+      </p>
+
+      <p>
+        <span class="red">Haustierbedarf</span><br />
+        <span live-update live-value="pet-cost"></span> Euro
+      </p>
+
+      <p>
+        <span class="red">Weggeworfene Lebensmittel</span><br />
+        <span live-update live-value="trashed-food"></span> Kilogramm
+      </p>
+
+      <p>
+        <span class="red">Bruttolohn</span><br />
+        <span live-update live-value="gdp"></span> Euro
+      </p>
+
+      <p>
+        <span class="red">Wasserverbrauch</span><br />
+        <span live-update live-value="water"></span> Liter
+      </p>
+
+      <p>
+        <span class="red">Eheschließungen</span><br />
+        <span live-update live-value="marriage"></span>
+      </p>
+
+      <p>
+        <span class="red">Scheidungen</span><br />
+        <span live-update live-value="divorce"></span>
+      </p>
+
+
+    </div>
+
+    <script src="libs/jquery-2.2.0.min.js"></script>
+    <script src="libs/numeral.min.js"></script>
+    <script src="libs/languages.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
