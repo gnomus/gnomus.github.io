@@ -62,4 +62,4 @@ $.fn.followTo = function (pos) {
     });
 };
 
-$('img.human').followTo(1300);
+$('img.human').followTo(1200);
