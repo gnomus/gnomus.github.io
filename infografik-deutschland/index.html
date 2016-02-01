@@ -14,7 +14,7 @@
   <body>
     <div class="content">
       <h1>WIE DEUTSCHLAND TICKT</h1>
-      <p class="red text-right time">Was in <span live-update live-value="seconds"></span> <span class="black">Sekunden</span> in Deutschland passiert</p>
+      <p class="red text-right time">Was in <span live-update live-value="seconds"></span> <span class="black">Sekunden</span> durchschnittlich in Deutschland passiert</p>
       <div class="jumbo">
         <div class="pull-left">
           <img class="map" src="img/map.png">
@@ -30,89 +30,129 @@
       <img class="human" src="img/human.png">
 
       <p>
-        <span class="red">Staatsschulden von Deutschland</span>
         <span live-update live-value="debt"></span> Euro
+        <span class="red">Staatsschulden</span>
       </p>
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>
-        <span class="red">In Deutschland leben rund
-          <br>41 Millionen Frauen
-          <br>und etwa 40 Millionen Männer.
-          <br>Davon liegt der Anteil an Jugendlichen
-          <br>bei circa 12 Prozent.</span>
+        <span class="red">Insgesamt sind es
+          <br>41 Millionen Frauen und
+          <br>etwa 40 Millionen Männer.</span>
 
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+      <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+      <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>
+        <div live-bar live-value="birth" class="progress-bar" divisor="0.01"></div>
         <span class="red">Geburten</span><br />
         <span live-update live-value="birth"></span> Menschen
       </p>
 
       <p>
+        <div live-bar live-value="death" class="progress-bar" divisor="0.01"></div>
         <span class="red">Tode</span><br />
         <span live-update live-value="death"></span> Menschen
       </p>
 
       <p>
+        <div live-bar live-value="marriage" class="progress-bar" divisor="0.01"></div>
+        <span class="red">Eheschließungen</span><br />
+        <span live-update live-value="marriage"></span>
+      </p>
+
+      <p>
+        <div live-bar live-value="divorce" class="progress-bar" divisor="0.01"></div>
+        <span class="red">Scheidungen</span><br />
+        <span live-update live-value="divorce"></span>
+      </p>
+
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+
+      <p>
+        <div live-bar live-value="coffee" class="progress-bar" divisor="1000"></div>
         <span class="red">Kaffee</span><br />
-        <span live-update live-value="coffee"></span> Tassen
+        <span live-update live-value="coffee" live-format="0,0"></span> Tassen
       </p>
 
       <p>
+        <div live-bar live-value="cigarettes" class="progress-bar" divisor="1000"></div>
         <span class="red">Rauchen</span><br />
-        <span live-update live-value="cigarettes"></span> Zigaretten
+        <span live-update live-value="cigarettes" live-format="0,0"></span> Zigaretten
       </p>
 
       <p>
+        <div live-bar live-value="beer" class="progress-bar" divisor="1000"></div>
         <span class="red">Bier</span><br />
-        <span live-update live-value="beer"></span> Liter
+        <span live-update live-value="beer" live-format="0,0"></span> Liter
       </p>
 
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+
       <p>
+        <div live-bar live-value="fruits" class="progress-bar" divisor="100"></div>
         <span class="red">Obst</span><br />
-        <span live-update live-value="fruits"></span> Kilogramm
+        <span live-update live-value="fruits" live-format="0,0"></span> Kilogramm
       </p>
 
       <p>
+        <div live-bar live-value="vegetables" class="progress-bar" divisor="100"></div>
         <span class="red">Gemüse</span><br />
-        <span live-update live-value="vegetables"></span> Kilogramm
+        <span live-update live-value="vegetables" live-format="0,0"></span> Kilogramm
       </p>
 
       <p>
+        <div live-bar live-value="meat" class="progress-bar" divisor="100"></div>
         <span class="red">Fleisch</span><br />
-        <span live-update live-value="meat"></span> Kilogramm
+        <span live-update live-value="meat" live-format="0,0"></span> Kilogramm
       </p>
 
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+
       <p>
+        <div live-bar live-value="drive" class="progress-bar" divisor="1000"></div>
         <span class="red">Autofahrten</span><br />
-        <span live-update live-value="drive"></span> Kilometer
+        <span live-update live-value="drive" live-format="0,0"></span> Kilometer
       </p>
 
       <p>
+        <div live-bar live-value="gas-amount" class="progress-bar" divisor="1000"></div>
         <span class="red">Kraftstoffverbrauch</span><br />
-        <span live-update live-value="gas-amount"></span> Liter
+        <span live-update live-value="gas-amount" live-format="0,0"></span> Liter
       </p>
 
       <p>
+        <div live-bar live-value="gas-cost" class="progress-bar" divisor="1000"></div>
         <span class="red">Ausgaben Kraftstoff</span><br />
         <span live-update live-value="gas-cost"></span> Euro
       </p>
 
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+
       <p>
+        <div live-bar live-value="pet-cost" class="progress-bar" divisor="100"></div>
         <span class="red">Haustierbedarf</span><br />
         <span live-update live-value="pet-cost"></span> Euro
       </p>
 
-      <p>
-        <span class="red">Weggeworfene Lebensmittel</span><br />
-        <span live-update live-value="trashed-food"></span> Kilogramm
-      </p>
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
+    <p>&nbsp;</p> <!--ABSTANDSHALTER-->
 
       <p>
-        <span class="red">Bruttolohn</span><br />
-        <span live-update live-value="gdp"></span> Euro
+        <div live-bar live-value="fruits" class="progress-bar" divisor="100"></div>
+        <span class="red">Weggeworfene Lebensmittel</span><br />
+        <span live-update live-value="trashed-food"></span> Kilogramm
       </p>
 
       <p>
@@ -120,21 +160,26 @@
         <span live-update live-value="water"></span> Liter
       </p>
 
-      <p>
-        <span class="red">Eheschließungen</span><br />
-        <span live-update live-value="marriage"></span>
-      </p>
-
-      <p>
-        <span class="red">Scheidungen</span><br />
-        <span live-update live-value="divorce"></span>
-      </p>
+<p>&nbsp;</p> <!--ABSTANDSHALTER-->
 
       <p class="footnote">
         Anmerkung: <br>Sämtliche der in der obigen Animation
         <br>verwendeten Zahlen und Daten
         <br>basieren auf hochgerechneten Durschnittswerten
         <br>und z.T. Schätzungen und erheben keinen Anspruch auf Genauigkeit.
+        <br>Staatsschulden:
+        <br>Geburten: Statistisches Bundesamt; https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/Bevoelkerung/Geburten/Geburten.html
+        <br>Tode: Statistisches Bundesamt; https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/Bevoelkerung/Sterbefaelle/Sterbefaelle.html
+        <br>Eheschließungen: Statistisches Bundesamt; https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/Bevoelkerung/Eheschliessungen/Eheschliessungen.html
+        <br>Ehescheidungen: Statistisches Bundesamt; https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/Bevoelkerung/Ehescheidungen/Ehescheidungen.html
+        <br>Kaffetassen: WELT online; http://www.welt.de/wirtschaft/article116668377/Pro-Sekunde-trinken-Deutsche-2315-Tassen-Kaffee.html
+        <br>Zigaretten: Statistisches Bundesamt; http://de.statista.com/statistik/daten/studie/6209/umfrage/entwicklung-des-zigarettenkonsums-seit-1964/
+        <br>Bierverbrauch: Statistisches Bundesamt; http://de.statista.com/statistik/daten/studie/3406/umfrage/bierabsatz-in-deutschland-seit-dem-jahr-1999//
+        <br>Nahrungsmittel: BMEL, BLE; http://de.statista.com/statistik/daten/studie/6300/umfrage/pro-kopf-verbrauch-von-obst-in-deutschland/, http://de.statista.com/statistik/daten/studie/176731/umfrage/pro-kopf-verbrauch-von-gemuese-in-deutschland/, http://de.statista.com/statistik/daten/studie/36573/umfrage/pro-kopf-verbrauch-von-fleisch-in-deutschland-seit-2000/
+        <br>Automobile: Statistisches Bundesamt, DIW Berlin, KBA, Brennstoffspiegel; http://de.statista.com/statistik/daten/studie/2984/umfrage/entwicklung-der-fahrleistung-von-pkw/, http://www.brennstoffspiegel.de/energiemarkt.html?newsid=14312&title=Tankstelle%3A+Aral+bleibt+Primus, http://de.statista.com/statistik/daten/studie/166470/umfrage/monatliche-ausgaben-privater-haushalte-fuer-kraftstoffe-seit-1990/
+        <br>Haustierbedarf: ZZF; http://de.statista.com/statistik/daten/studie/261958/umfrage/marktvolumen-fuer-heimtierbedarf-heimtierbedarf-in-deutschland/
+        <br>Weggeworfene Lebensmittel: Spiegel Online; http://www.spiegel.de/wirtschaft/service/jeder-deutsche-wirft-im-jahr-82-kilo-lebensmittel-weg-a-820994.html
+        <br>Wasserverbrauch:
       </p>
 
     </div>

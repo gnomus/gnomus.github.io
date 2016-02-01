@@ -3,6 +3,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
+  overflow-x: hidden;
 }
 h1 {
   font-family: 'Nixie One', cursive;
@@ -35,6 +36,15 @@ img.human {
 
 .time {
   margin-bottom: 50px;
+}
+
+.progress-bar {
+  height: 60px;
+  width: 0px;
+  position: absolute;
+  margin-left: 200px;
+  background-color: #BD1622;
+  z-index: -1;
 }
 
 .description {

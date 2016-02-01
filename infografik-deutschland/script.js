@@ -35,10 +35,25 @@ setInterval(function() {
 
     newValue = (facts[e.attr('live-value')]*(runtime/1000.0))
 
-    formated = numeral(newValue).format("0,0.00")
+    var format = e.attr('live-format') || "0,0.00"
+
+    formated = numeral(newValue).format(format)
 
     e.html(formated)
-  })
+  });
+
+  $('[live-bar]').each(function(i, elem) {
+    runtime = Date.now() - start;
+
+    e = $(elem);
+
+    newValue = (facts[e.attr('live-value')]*(runtime/1000.0))
+
+    var divisor = parseFloat(e.attr('divisor')) || 1;
+
+    e.css('width', newValue/divisor);
+  });
+
 }, updateInterval)
 
 
