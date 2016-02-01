@@ -47,10 +47,15 @@ img.human {
   z-index: -1;
 }
 
+.debt-bar {
+  bottom: 213px;
+  right: 170px;
+}
+
 .description {
   position: absolute;
   text-align: right;
-  bottom: 120px;
+  bottom: 200px;
   right: 0;
   width: 300px;
 }

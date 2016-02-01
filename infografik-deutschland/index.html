@@ -25,13 +25,15 @@
           <br>Menschen verteilt auf
           <br>357.168 km² unterteilt in
           <br>16 Bundesländer.
+          <br><br><br><br><br><br>
+          <span class="red">Staatsschulden</span><br>
+          <span live-update live-value="debt"></span> <span class="black">Euro</span>
+          <div live-bar live-value="debt" class="progress-bar debt-bar" divisor="100"></div>
         </p>
       </div>
       <img class="human" src="img/human.png">
 
-      <p>
-        <span live-update live-value="debt"></span> Euro
-        <span class="red">Staatsschulden</span>
+      <p style="text-align: right;">
       </p>
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
       <p>&nbsp;</p> <!--ABSTANDSHALTER-->
@@ -150,14 +152,9 @@
     <p>&nbsp;</p> <!--ABSTANDSHALTER-->
 
       <p>
-        <div live-bar live-value="fruits" class="progress-bar" divisor="100"></div>
-        <span class="red">Weggeworfene Lebensmittel</span><br />
-        <span live-update live-value="trashed-food"></span> Kilogramm
-      </p>
-
-      <p>
-        <span class="red">Wasserverbrauch</span><br />
-        <span live-update live-value="water"></span> Liter
+        <div live-bar live-value="trashed-food" class="progress-bar" divisor="100"></div>
+        <span class="red">Weggeworfene<br />Lebensmittel</span><br />
+        <span live-update live-value="trashed-food" live-format="0,0"></span> Kilogramm
       </p>
 
 <p>&nbsp;</p> <!--ABSTANDSHALTER-->
