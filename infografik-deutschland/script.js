@@ -78,3 +78,8 @@ $.fn.followTo = function (pos) {
 };
 
 $('img.human').followTo(1200);
+
+$('.header').click(function() {
+  $('.sources').toggle(500);
+})
+$('.sources').hide();
