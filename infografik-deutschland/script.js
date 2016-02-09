@@ -58,12 +58,12 @@ setInterval(function() {
 
 
 //jQuery Scroll Plugin
-$.fn.followTo = function (pos) {
+$.fn.followTo = function (pos,dist) {
     var $this = this,
         $window = $(window);
 
     $window.scroll(function (e) {
-        if ($window.scrollTop() < pos-100) {
+        if ($window.scrollTop() < pos-dist) {
             $this.css({
                 position: 'absolute',
                 top: pos
@@ -71,13 +71,14 @@ $.fn.followTo = function (pos) {
         } else {
             $this.css({
                 position: 'fixed',
-                top: 100
+                top: dist
             });
         }
     });
 };
 
-$('img.human').followTo(1200);
+$('img.human').followTo(1200,100);
+$('span.clock').followTo(1240,140);
 
 $('.header').click(function() {
   $('.sources').toggle(500);

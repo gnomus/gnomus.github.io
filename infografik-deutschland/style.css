@@ -34,6 +34,13 @@ img.human {
   padding-left: 100px;
 }
 
+span.clock {
+  position: absolute;
+  right: 50%;
+  top: 1240px;
+  padding-right: 500px;
+}
+
 .time {
   margin-bottom: 50px;
 }
@@ -44,6 +51,7 @@ img.human {
   position: absolute;
   margin-left: 200px;
   background-color: #BD1622;
+  background-image: url("stripe.png");
   z-index: -1;
 }
 
@@ -84,4 +92,8 @@ img.human {
 
 span[ live-update] {
   color: black;
+}
+
+.smaller {
+  font-size: 15px;
 }
