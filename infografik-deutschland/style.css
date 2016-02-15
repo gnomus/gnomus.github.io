@@ -58,6 +58,7 @@ span.clock {
 .debt-bar {
   bottom: 213px;
   right: 170px;
+  background-position: right;
 }
 
 .description {
