@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:400,600,700,800);
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+img {
+	width: 10%;
+	height: 10%;
+}
