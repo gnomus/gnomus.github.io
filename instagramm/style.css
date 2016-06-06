@@ -3,9 +3,62 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  overflow-x: hidden;
 }
-img {
-	width: 10%;
-	height: 10%;
+
+body {
+	overflow: hidden
+}
+
+
+
+#background > img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	z-index: -100;
+}
+
+.jumbo {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	width: 600px;
+	height: 100px;
+	position: relative;
+	top: 200px;
+	left: 50%;
+	margin-left: -300px;
+	
+}
+.jumbo > .profile {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	
+}
+
+.jumbo > .name {
+  position: absolute;
+  top: 10px;
+  left: 100px;  
+}
+
+.jumbo > .amount {
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  color: #BBBBBB;
+}
+
+.jumbo > .caption {
+  position: absolute;
+  top: 40px;
+  left: 100px;  
+  color: #BBBBBB;
+  font-weight: 200;
 }

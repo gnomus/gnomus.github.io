@@ -10,11 +10,15 @@ function changeSrc (img) {
 }
 
 var parentdiv =  $("#background");
-for (var i = 0; i < 16; i++) {
-	for (var j = 0; j < 9; j++)
+for (var i = 0; i < 39; i++) {
+	for (var j = 0; j < 22; j++)
 	{
 		var img = $("<img>");
-		img.attr("src", "img/1.jpg")
+		img.attr("src", "img/white.jpg")
+		img.css({
+			"top": 50*j,
+			"left": 50*i
+		});
 		parentdiv.append(img);
 		setTimeout(function(img) {
 			return function() {
