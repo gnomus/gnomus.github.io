@@ -1,8 +1,12 @@
 function changeSrc (img) {
-	var that = img;
 	var imgid = Math.floor(Math.random()*5) + 1
-	that.attr("src", "img/" + imgid+".jpg")
-	console.log("fuu")
+	img.attr("src", "img/" + imgid+".jpg")
+	
+	//img.fadeTo(200,0.30, function() {
+	//	img.attr("src", "img/" + imgid+".jpg")
+	//}).fadeTo(200,1);
+	
+	console.log("X")
 }
 
 var parentdiv =  $("#background");
@@ -12,8 +16,12 @@ for (var i = 0; i < 16; i++) {
 		var img = $("<img>");
 		img.attr("src", "img/1.jpg")
 		parentdiv.append(img);
-		setInterval(function(img) {
-			return function() {changeSrc(img);};
-		}(img), 1000);
+		setTimeout(function(img) {
+			return function() {
+				setInterval(function() {
+					 changeSrc(img);
+				}, 1000);
+			};
+		}(img), Math.random()*1000);
 	}
 } 
