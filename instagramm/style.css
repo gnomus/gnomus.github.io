@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:300,400,600,700,800);
 html {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
 }
 
@@ -18,16 +18,33 @@ html {
   margin: 0 5px;
 }
 
+.page > .header > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 150px;
+  margin-top: 8px;
+}
+
+.page > .header > h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+  margin-left: 150px;
+  text-transform: uppercase;
+}
+
 .page > .content {
   border: 2px solid #CCC;
   border-top: none;
   height: 800px;
   width: 1200px;
   margin-left: 405px;
+  position: relative;
 }
 
-#background > img {
-	position: absolute;
+.content > img {
+        position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 50px;
