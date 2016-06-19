@@ -5,11 +5,26 @@ html {
   font-size: 20px;
 }
 
-body {
-	overflow: hidden
+.page {
+  width: 1610px;
+  margin: 100px auto;
+  height: 1000px;
 }
 
+.page > .header {
+  border: 2px solid #CCC;
+  height: 100px;
+  width: 1600px;
+  margin: 0 5px;
+}
 
+.page > .content {
+  border: 2px solid #CCC;
+  border-top: none;
+  height: 800px;
+  width: 1200px;
+  margin-left: 405px;
+}
 
 #background > img {
 	position: absolute;
@@ -30,7 +45,7 @@ body {
 	top: 200px;
 	left: 50%;
 	margin-left: -300px;
-	
+
 }
 .jumbo > .profile {
 	position: absolute;
@@ -39,26 +54,26 @@ body {
 	width: 80px;
 	height: 80px;
 	border-radius: 40px;
-	
+
 }
 
 .jumbo > .name {
   position: absolute;
   top: 10px;
-  left: 100px;  
+  left: 100px;
 }
 
 .jumbo > .amount {
   position: absolute;
   top: 10px;
-  right: 10px; 
+  right: 10px;
   color: #BBBBBB;
 }
 
 .jumbo > .caption {
   position: absolute;
   top: 40px;
-  left: 100px;  
+  left: 100px;
   color: #BBBBBB;
   font-weight: 200;
 }
