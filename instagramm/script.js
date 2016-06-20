@@ -24,8 +24,8 @@ for (var i = 0; i < 24; i++) {
 			return function() {
 				setInterval(function() {
 					 changeSrc(img);
-				}, 1000);
+				}, 500);
 			};
-		}(img), Math.random()*1000);
+		}(img), Math.random()*500);
 	}
 }
