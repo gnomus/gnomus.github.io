@@ -16,8 +16,9 @@ for (var i = 0; i < 24; i++) {
 		uploaddiv.append(img);
 		setTimeout(function(img) {
 			return function() {
-				setInterval(function
-				}, 400);
+				setInterval(function() {
+					 changeSrc(img);
+				}, 500);
 			};
 		}(img), Math.random()*500);
 	}
@@ -46,7 +47,7 @@ for (var i = 0; i < 24; i++) {
 			return function() {
 				setInterval(function() {
 					 changeLike(img);
-				}, 400);
+				}, 500);
 			};
 		}(img), Math.random()*500);
 	}
