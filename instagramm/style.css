@@ -68,3 +68,11 @@ html {
 	overflow: hidden;
 	z-index: -100;
 }
+
+.page > .content > img.logo {
+  display: block;
+        position: static;
+        margin: 0 auto;
+  width: 1000px;
+  height: auto;
+}
