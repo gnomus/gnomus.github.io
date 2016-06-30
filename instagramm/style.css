@@ -76,3 +76,11 @@ html {
   width: 1000px;
   height: auto;
 }
+
+.red {
+  color: red;
+}
+
+.hl {
+  font-weight: 600;
+}
