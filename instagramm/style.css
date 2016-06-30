@@ -56,7 +56,9 @@ html {
   height: auto;
   min-height: 800px;
   padding: 20px;
-  width: 1160px;
+  width: 860px;
+  text-align: justify;
+  padding-right: 320px;
 }
 
 .page > .content > img {
