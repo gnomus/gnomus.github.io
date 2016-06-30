@@ -8,7 +8,7 @@ html {
 .page {
   width: 1610px;
   margin: 100px auto;
-  height: 1000px;
+  min-height: 1000px;
 }
 
 .page > .header {
