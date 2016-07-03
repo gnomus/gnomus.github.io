@@ -18,9 +18,9 @@ for (var i = 0; i < 24; i++) {
 			return function() {
 				setInterval(function() {
 					 changeSrc(img);
-				}, 400);
+				}, 1000);
 			};
-		}(img), Math.random()*400);
+		}(img), Math.random()*2000);
 	}
 }
 
@@ -35,6 +35,20 @@ function setTag (newTag) {
   imgs = $(".content.tags img");
   imgs.attr("src", "img/white.jpg");
 }
+
+$("#click-love").click(function() {
+  setTag("love");
+})
+
+
+$("#click-me").click(function() {
+  setTag("me");
+})
+
+
+$("#click-follow").click(function() {
+  setTag("follow");
+})
 
 var tagdiv =  $(".content.tags");
 for (var i = 0; i < 24; i++) {
@@ -51,9 +65,9 @@ for (var i = 0; i < 24; i++) {
 			return function() {
 				setInterval(function() {
 					 changeTag(img);
-				}, 400);
+				}, 1000);
 			};
-		}(img), Math.random()*400);
+		}(img), Math.random()*2000);
 	}
 }
 
@@ -81,8 +95,8 @@ for (var i = 0; i < 24; i++) {
 			return function() {
 				setInterval(function() {
 					 changeLike(img);
-				}, 400);
+				}, 1000);
 			};
-		}(img), Math.random()*400);
+		}(img), Math.random()*2000);
 	}
 }
