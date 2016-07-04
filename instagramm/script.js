@@ -1,6 +1,6 @@
 function changeSrc (img) {
 	var imgid = Math.floor(Math.random()*500);
-	img.attr("src", "img/love/" + imgid+".jpg")
+	img.attr("src", "img/selfie/" + imgid+".jpg")
 }
 
 var uploaddiv =  $(".content.uploads");
