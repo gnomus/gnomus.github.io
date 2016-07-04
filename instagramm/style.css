@@ -97,6 +97,23 @@ html {
   text-transform: uppercase;
 }
 
+.uploaded-img {
+  width: 50%;
+  float: left;
+}
+
+.uploaded-img > img{
+  margin: 0 auto;
+  display: block;
+}
+
+.uploaded-img > p{
+  margin: 150px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: block;
+}
+
 .red {
   color: red;
 }
