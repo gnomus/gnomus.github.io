@@ -107,3 +107,7 @@ html {
 .selected {
   font-weight: 600;
 }
+
+.boh:hover {
+  font-weight: 600 !important;
+}
