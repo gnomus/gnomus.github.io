@@ -107,11 +107,21 @@ html {
   display: block;
 }
 
-.uploaded-img > p{
+.uploaded-img > .img-desc{
   margin: 150px;
   margin-top: 20px;
   margin-bottom: 50px;
-  display: block;
+}
+
+.uploaded-img > .img-desc > h1{
+  text-align: left;
+  font-weight: 100;
+  margin: 0;
+  font-size: 20px;
+}
+
+.uploaded-img > .caption{
+text-align: center;
 }
 
 .red {
