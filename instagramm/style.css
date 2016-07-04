@@ -86,3 +86,7 @@ html {
 .hl {
   font-weight: 600;
 }
+
+.selected {
+  font-weight: 600;
+}

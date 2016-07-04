@@ -38,16 +38,25 @@ function setTag (newTag) {
 
 $("#click-love").click(function() {
   setTag("love");
+  $("#click-love").addClass("selected");
+  $("#click-me").removeClass("selected");
+  $("#click-follow").removeClass("selected");
 })
 
 
 $("#click-me").click(function() {
   setTag("me");
+    $("#click-love").removeClass("selected");
+  $("#click-me").addClass("selected");
+  $("#click-follow").removeClass("selected");
 })
 
 
 $("#click-follow").click(function() {
   setTag("follow");
+  $("#click-love").removeClass("selected");
+  $("#click-me").removeClass("selected");
+  $("#click-follow").addClass("selected");
 })
 
 var tagdiv =  $(".content.tags");
