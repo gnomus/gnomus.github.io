@@ -112,6 +112,7 @@ html {
   margin: 150px;
   margin-top: 20px;
   margin-bottom: 50px;
+  text-align: justify;
 }
 
 .uploaded-img > .img-desc > h1{
@@ -122,7 +123,8 @@ html {
 }
 
 .uploaded-img > .caption{
-text-align: center;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .red {

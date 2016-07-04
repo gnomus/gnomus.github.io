@@ -115,6 +115,5 @@ $("#noupload").click(function() {
 })
 
 $("#yesupload").click(function() {
-  $("#yesupload-text").toggle(1000);
-  $("#yesupload-img").toggle(1000);
+  $(".yesupload-show").toggle(1000);
 })
