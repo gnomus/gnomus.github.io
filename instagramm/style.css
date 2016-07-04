@@ -64,6 +64,11 @@ html {
   height: initial;
 }
 
+.page > .content.upload {
+  height: initial;
+  padding: 20px;
+}
+
 .page > .content > img {
         position: absolute;
 	top: 0px;
@@ -86,6 +91,7 @@ html {
   font-size: 30px;
   font-weight: 300;
   padding: 50px;
+  padding-left: 0;
   margin: 0;
   text-transform: uppercase;
 }

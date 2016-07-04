@@ -109,3 +109,11 @@ for (var i = 0; i < 24; i++) {
 		}(img), Math.random()*2000);
 	}
 }
+
+$("#noupload").click(function() {
+  $("#noupload-text").show(1000);
+})
+
+$("#yesupload").click(function() {
+  $("#yesupload-text").show(1000);
+})
