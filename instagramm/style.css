@@ -67,6 +67,7 @@ html {
 .page > .content.upload {
   height: initial;
   padding: 20px;
+  width: 1160px;
 }
 
 .page > .content > img {
