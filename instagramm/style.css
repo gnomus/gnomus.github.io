@@ -105,6 +105,7 @@ html {
 .uploaded-img > img{
   margin: 0 auto;
   display: block;
+  width: 200px;
 }
 
 .uploaded-img > .img-desc{
