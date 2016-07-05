@@ -100,6 +100,7 @@ html {
 .uploaded-img {
   width: 50%;
   float: left;
+  margin-bottom: 100px;
 }
 
 .uploaded-img > img{
@@ -124,7 +125,7 @@ html {
 
 .uploaded-img > .caption{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .red {
@@ -141,4 +142,10 @@ html {
 
 .boh:hover {
   font-weight: 600 !important;
+}
+
+#our-images {
+  margin-right: 300px;
+  margin-bottom: 100px;
+  text-align: justify;
 }
