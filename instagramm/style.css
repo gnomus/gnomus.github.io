@@ -97,39 +97,23 @@ html {
   text-transform: uppercase;
 }
 
-.uploaded-img {
-  width: 50%;
-  float: left;
-  margin-bottom: 100px;
-}
-
-.uploaded-img > img{
-  margin: 0 auto;
-  display: block;
-  width: 200px;
-}
-
-.uploaded-img > .img-desc{
-  margin: 150px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  text-align: justify;
-}
-
-.uploaded-img > .img-desc > h1{
-  text-align: left;
-  font-weight: 100;
-  margin: 0;
-  font-size: 20px;
-}
-
-.uploaded-img > .caption{
+.delete {
   text-align: center;
-  margin-top: 30px;
+  margin: 200px auto;
+  font-size: 50px;
+}
+
+.delete > a {
+  text-decoration: none;
+  color: black;
+}
+
+.delete > a:hover {
+  font-weight: 600;
 }
 
 .red {
-  color: red;
+  color: red !important;
 }
 
 .hl {
