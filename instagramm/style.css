@@ -149,3 +149,10 @@ html {
   margin-bottom: 100px;
   text-align: justify;
 }
+
+.what {
+  text-align: center !important;
+  padding-right: 20px !important;
+  width: 1160px !important;
+  font-size: 30px;
+}
