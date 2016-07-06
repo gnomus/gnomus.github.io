@@ -153,8 +153,12 @@ html {
 .what {
   text-align: center !important;
   padding-right: 20px !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
   width: 1160px !important;
-  font-size: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  min-height: 0px !important;
 }
 .src {
   margin: 100px;

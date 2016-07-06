@@ -110,10 +110,10 @@ for (var i = 0; i < 24; i++) {
 	}
 }
 
-$("#noupload").click(function() {
-  $("#noupload-text").toggle(1000);
+$("#quellen").click(function() {
+  $("#quellen-text").toggle(1000);
 })
 
-$("#yesupload").click(function() {
-  $(".yesupload-show").toggle(1000);
+$("#imp").click(function() {
+  $("#imp-text").toggle(1000);
 })
