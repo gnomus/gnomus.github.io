@@ -126,6 +126,7 @@ html {
 
 .boh:hover {
   font-weight: 600 !important;
+  cursor: pointer;
 }
 
 #our-images {
